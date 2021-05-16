@@ -9,3 +9,9 @@ App_initialize (App *app, unsigned short width,
 
   app->state = STATE_RUNNING;
 }
+
+/* void */
+/* App_update (App *app) */
+/* { */
+  
+/* } */

@@ -1,4 +1,4 @@
-SRC=src/main.c src/app.c src/graphics.c
+SRC=src/main.c src/app.c src/graphics.c src/callbacks.c
 
 OBJ=$(SRC:.c=.o)
 CFLAGS=-g -Werror -Wextra -Wall `pkg-config --cflags sdl2`
